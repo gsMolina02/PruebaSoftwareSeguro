@@ -48,4 +48,4 @@ git push
 El pipeline se ejecuta de nuevo:
 Pasa build_and_test
 Pasa security_scan
-Corre deploy y actualiza GitHub Pages...
+Corre deploy y actualiza GitHub Pages..
