@@ -8,4 +8,8 @@ function evaluateRisk(vulns, dependencies) {
   return 'HIGH';
 }
 
+test('retorna 0 cuando no hay dependencias', () => {
+  expect(evaluateRisk(5, 0)).toBe(0);
+});
+
 module.exports = { evaluateRisk };
